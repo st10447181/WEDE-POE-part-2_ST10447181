@@ -128,6 +128,7 @@ Homepage (index.html)
 ─ Featured products (3 bestsellers)
 ─ Services preview (3 services)
 ─ Customer testimonials
+<img width="263" height="367" alt="image" src="https://github.com/user-attachments/assets/72fba8e6-82f3-4ddf-b51c-3b5431f90024" />
 
 About Us (about.html)
 ─ Our Story (history)
@@ -135,6 +136,8 @@ About Us (about.html)
 ─ Vision Statement
 ─ Core Values (4 values)
 ─ Meet the Team (2 members)
+<img width="303" height="419" alt="image" src="https://github.com/user-attachments/assets/3410c380-031d-4e24-aacb-1fd288973fe3" />
+
 
 Products (products.html)
 ─ Mountain Bikes
@@ -142,19 +145,26 @@ Products (products.html)
 ─ Electric Bikes
 ─ Kids' Bikes
 ─ Accessories & Parts
+<img width="296" height="400" alt="image" src="https://github.com/user-attachments/assets/e547b5d2-6470-4490-a066-ce4e9874462f" />
 
 Services (services.html)
 ─ Repairs & Maintenance
 ─ Servicing Packages (Basic, Standard, Premium)
 ─ Custom Builds
+<img width="296" height="400" alt="image" src="https://github.com/user-attachments/assets/1b5bb016-7917-4015-ab20-bbb2b718dada" />
+
 
 Enquiry (enquiry.html)
 ─ Enquiry Form
 ─ Quick Contact Information
+<img width="306" height="424" alt="image" src="https://github.com/user-attachments/assets/a84d7ef7-79e2-4736-82bd-afd1399cb266" />
+
 
 Contact (contact.html)
 ─ Location with Google Map
 ─ Quick Contact Form
+<img width="330" height="464" alt="image" src="https://github.com/user-attachments/assets/96e2578c-e5f6-46e3-9c62-713e084ac85f" />
+
 
 Sitemap (sitemap.html)
 ─ Site Structure (visual grid)
