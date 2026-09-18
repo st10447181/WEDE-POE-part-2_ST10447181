@@ -186,6 +186,7 @@ Sitemap (sitemap.html)
 - Created about page with team information
 
 **Changes Made:**
+
 **11 August 2026 - PART 1**
 - Fixed navigation from vertical to horizontal layout
 - Centred hero banners on all pages
@@ -193,6 +194,7 @@ Sitemap (sitemap.html)
 - Resized product images to fit cards
 - Centred buttons on services page
 - Added sitemap page
+
 **14 September 2026 - PART 2**
 - Wireframes added: Created visual wireframes for all the 7 pages and added them to the proposal document.
 - CSS Implementation: An external style.css file was created and linked to all the 7 HTML pages
