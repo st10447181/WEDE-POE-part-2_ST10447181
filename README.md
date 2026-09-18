@@ -1,6 +1,6 @@
 # Amicon Cycles - Bicycle Retail Website
 
-## Project Overview
+## Project Overview Part 1
 
 Amicon Cycles is a professional, responsive website designed for a bicycle retail store based in Secunda, Mpumalanga. The website serves as a digital storefront, showcasing the store's products, services, and brand identity while providing customers with an easy way to enquire about products and services.
 
@@ -160,6 +160,7 @@ Sitemap (sitemap.html)
 ─ Site Structure (visual grid)
 ─ Detailed Page Hierarchy
 ─ Website Statistics
+<img width="1163" height="429" alt="Sitemap Image" src="https://github.com/user-attachments/assets/36d91655-8ad0-4c5d-a02c-a6ef7c410702" />
 
 ## Changelog
 
@@ -175,14 +176,14 @@ Sitemap (sitemap.html)
 - Created about page with team information
 
 **Changes Made:**
-**11 August 2026**
+**11 August 2026 - PART 1**
 - Fixed navigation from vertical to horizontal layout
 - Centred hero banners on all pages
 - Added background colours to navigation and footer
 - Resized product images to fit cards
 - Centred buttons on services page
 - Added sitemap page
-**14 September 2026**
+**14 September 2026 - PART 2**
 - Wireframes added: Created visual wireframes for all the 7 pages and added them to the proposal document.
 - CSS Implementation: An external style.css file was created and linked to all the 7 HTML pages
 - Responsive Design: Added media queries to css to ensure the layout and images adapt to tablets, mobiles, and desktop screen sizes.
