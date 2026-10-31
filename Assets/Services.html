@@ -1,187 +1,135 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>Amicon Cycles|Services</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amicon Cycles | Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!--This is the top promotional bar-->
+
     <marquee>Free Basic Service On All New Bikes | 0% Finance Available</marquee>
 
-    <!--This is the header with contact info-->
     <header>
-        <div class="contact-info">
-            <span> +27 68 243 2562</span>
-            <span> info@amiconcycle.co.za</span>
-            <span> Shop 19, Mall@Secunda, Secunda</span>
-        </div>
+        <span> +27 68 243 2562 | info@amiconcycle.co.za | Shop 19, Mall@Secunda, Secunda</span>
+    </header>
 
-     <!--This is the navigation with a logo-->
-        </a><nav class="navbar">
+    <nav class="navbar">
         <div class="container">
             <div class="logo">
-                <a href="index.html">
-                    <img src="Images/logo.png" alt="Amicon Cycles Logo" width="180">
-                </a>
+                <a href="index.html"><img src="Images/logo.png" alt="Amicon Cycles Logo"></a>
             </div>
             <ul class="nav-menu">
-                <a href="index.html"><i class="fas fa-home"></i> Home</a>
-                <a href="about.html"><i class="fas fa-info-circle"></i> About</a>
-                <a href="products.html"><i class="fas fa-bicycle"></i> Products</a>
-                <a href="services.html"><i class="fas fa-tools"></i> Services</a>
-                <a href="enquiry.html"><i class="fas fa-envelope"></i> Enquiry</a>
-                <a href="contact.html"><i class="fas fa-phone"></i> Contact</a>
-            </ul>    
-            
-        <!--Hamburger menu button for mobile devices-->
-            <div class="menu-toggle" id="mobile-menu"></div>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="products.html"><i class="fas fa-bicycle"></i> Products</a></li>
+                <li><a href="services.html" class="active"><i class="fas fa-tools"></i> Services</a></li>
+                <li><a href="enquiry.html"><i class="fas fa-envelope"></i> Enquiry</a></li>
+                <li><a href="contact.html"><i class="fas fa-phone"></i> Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
                 <i class="fas fa-bars"></i>
+            </div>
         </div>
-    </nav>  
-    </header> 
+    </nav>
 
-    <!--This is the Hero Banner-->
-   <div class="hero" style="background-color: rgba(106, 106, 129, 0.596); min-height: 250px; display: flex; align-items: center; justify-content: center; text-align: center; padding: 40x 20px;">
-        <div class="hero-content">
-        <h1 style="color: white; font-size: 36px; margin-bottom: 10px;">Our Services</h1>
-        <p style="color: white; font-size: 18px; max-width: 700px; margin: 0 auto 30px;">Expert bicycle repair, maintenance, and custom builds.</p>
-        </div>
-    </div>
-
-    <!--This is the services overview-->
-    <div class="services-overview" style="padding: 60px 20px; max-width: 1200px; margin: 0 auto;">
-        <h2 style="text-align: center; color: #1A237E; font-size: 32px; margin-bottom: 20px;">What We Offer</h2>
-        <p style="text-align: center; color: black; max-width: 1200px; margin: o auto 40px;">At Amicon Cycles, we provide professional bicycle services to keep you riding smoothly. Whether you need a quick repair, a full service, or a custom-built bike, our expert mechanics are here to help.</p>
-    </div>
-
-    <!--Service 1: Repairs and maintenance-->
-    <div class="service-detail" style="padding: 40px 20px; max-width: 1200px; margin: 0 auto;">
-        <h2 style="text-align: center; color: #1A237E; font-size: 28px;">Repairs & Maintenance</h2>
-        <p style="text-align: center; color: black; max-width: 1200px; margin: o auto 30px;">Our expert mechanics provide full diagnostic and repair services for all bike types, including mountain bike, road bikes, kids' bikes, and electric bikes</p>
-       <div style="background-color: rgb(196, 180, 160); padding: 30px; border-radius: 10px; text-align: center; box-shadow: 0 2px 10px rgba(236, 9, 9, 0.05);">
-            <h3 style="text-align: center; color: #1A237E; font-size: 20px; margin: 30px 0 15px;">What We Fix:</h3>
-            <ul style="text-align:left;">
-                <li><strong>Brake Adjustments & Repairs</strong> - Hydraulic and cable brakes</li>
-                <li><strong>Gear Tuning & Repairs</strong> - Smooth shifting guaranteed</li>
-                <li><strong>Wheel Truing & Tire Replacement</strong></li>
-                <li><strong>Full Bike Overhaul</strong> - Complete strip and service</li>
-                <li><strong>Electrical Diagnostics</strong> - For e-bikes</li>
-            </ul>
-        </div> 
-
-        <p style="text-align: center; color: black; max-width: 1200px; margin: o auto 30px;"><strong>Price Range:</strong>R250 - R1,500 depending on service</p>
-        <div style="text-align: center; margin-top: 30px;"><a href="Enquiry.html" style="display: inline-block; background-color: #E64A19; color: white; padding: 12px 30px; border-radius: 5px; text-decoration: none; font-weight: bold; align-items: center;">Book a Repair</a></div>
-    </div>
-
-    <!--Service 2: Servicing Packages-->
-    <div class="service-detail" style="padding: 40px 20px; max-width: 1200px; margin: 0 auto;">
-        <h2 style="text-align: center; color: #1A237E; font-size: 28px;">Servicing Packages</h2>
-        <p style="text-align: center; color: black; max-width: 1200px; margin: o auto 30px;">Affordable service packages designed to keep youe bike performing at its best. We offer three packages to suit your needs and budget.</p>
-
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, mixmax(280px, 1fr)); gap: 30px; max-width: 1200px; margin: 0 auto;">
-
-        <!--This is the first package: Basic-->
-        <div class="package">
-            <div style="background-color: rgb(196, 180, 160); padding: 30px; border-radius: 10px; text-align: center; box-shadow: 0 2px 10px rgba(236, 9, 9, 0.05);">
-                <h3 style="text-align: center;">Basic Service</h3>
-                <p style="text-align: center;"><strong>R350</strong></p>
-                <ul style="text-align: left;">
-                    <li>Break check & adjustment</li>
-                    <li>Gear Tuning</li>
-                    <li>Chain lubrication</li>
-                    <li>Tire pressure check</li>
-                </ul>
+    <main>
+        <div class="hero hero-sm">
+            <div>
+                <h1>Our Services</h1>
+                <p>Expert bicycle repair, maintenance, and custom builds.</p>
             </div>
         </div>
 
-        <!--This is the second package: Standard-->
-        <div class="package">
-            <div style="background-color: rgb(196, 180, 160); padding: 30px; border-radius: 10px; text-align: center; box-shadow: 0 2px 10px rgba(236, 9, 9, 0.05);">
-                <h3>Standard Service</h3>
-                <p><strong>R650</strong></p>
-                <ul style="text-align: left;">
-                    <li>All Basic Service Items</li>
-                    <li>Wheel Truing</li>
-                    <li>Cable replacement (if needed)</li>
-                    <li>Full safety check</li>
+        <div class="container">
+            <h2>Repairs & Maintenance</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 20px;">Our expert mechanics provide full diagnostic and repair services for all bike types.</p>
+            <div class="card" style="max-width: 800px; margin: 0 auto; text-align: left;">
+                <h3>What We Fix:</h3>
+                <ul style="list-style-type: disc; padding-left: 20px;">
+                    <li><strong>Brake Adjustments & Repairs</strong> - Hydraulic and cable brakes</li>
+                    <li><strong>Gear Tuning & Repairs</strong> - Smooth shifting guaranteed</li>
+                    <li><strong>Wheel Truing & Tire Replacement</strong></li>
+                    <li><strong>Full Bike Overhaul</strong> - Complete strip and service</li>
+                    <li><strong>Electrical Diagnostics</strong> - For e-bikes</li>
                 </ul>
+                <p style="margin-top: 15px;"><strong>Price Range:</strong> R250 - R1,500</p>
+                <div style="text-align: center; margin-top: 15px;">
+                    <a href="enquiry.html" class="btn">Book a Repair</a>
+                </div>
             </div>
         </div>
 
-        <!--This is the third package: Premium-->
-        <div class="package">
-            <div style="background-color: rgb(196, 180, 160); padding: 30px; border-radius: 10px; text-align: center; box-shadow: 0 2px 10px rgba(236, 9, 9, 0.05);">
-                <h3>Premium Service</h3>
-                <p><strong>R1,200</strong></p>
-                <ul style="text-align: left;">
-                    <li>All Standards Service items</li>
-                    <li>Complete bike wash & Detail</li>
-                    <li>Bearings checked & replaced</li>
-                    <li>Full component inspection</li>
-                </ul>
+        <div class="container" style="background-color: var(--grey-light); max-width: 100%;">
+            <h2>Servicing Packages</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>Basic Service</h3>
+                    <span class="price">R350</span>
+                    <ul style="list-style-type: disc; text-align: left; padding-left: 20px;">
+                        <li>Brake check & adjustment</li>
+                        <li>Gear Tuning</li>
+                        <li>Chain lubrication</li>
+                        <li>Tire pressure check</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Standard Service</h3>
+                    <span class="price">R650</span>
+                    <ul style="list-style-type: disc; text-align: left; padding-left: 20px;">
+                        <li>All Basic Service Items</li>
+                        <li>Wheel Truing</li>
+                        <li>Cable replacement (if needed)</li>
+                        <li>Full safety check</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Premium Service</h3>
+                    <span class="price">R1,200</span>
+                    <ul style="list-style-type: disc; text-align: left; padding-left: 20px;">
+                        <li>All Standard Service items</li>
+                        <li>Complete bike wash & Detail</li>
+                        <li>Bearings checked & replaced</li>
+                        <li>Full component inspection</li>
+                    </ul>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 30px;">
+                <a href="enquiry.html" class="btn">Book a Service Package</a>
             </div>
         </div>
 
-        <div style="text-align: center; margin-top: 30px;"><a href="Enquiry.html" style="display: inline-block; background-color: #E64A19; color: white; padding: 12px 30px; border-radius: 5px; text-decoration: none; font-weight: bold; align-items: center;">Book a Service Package</a></div>
-    </div>
-</section>
-
-    <!--Service 3: Custom Builds-->
-    <div class="service-detail" style="padding: 40px 20px; max-width: 1200px; margin: 0 auto;">
-        <h2 style="text-align: center; color: #1A237E; font-size: 28px;">Custom Builds</h2>
-        <p style="text-align: center;">Build your dream bike from the ground up with the help of our experienced mechanics. We'll help you select the perfect components for your riding style</p>
-
-        <div style="background-color: rgb(196, 180, 160); padding: 30px; border-radius: 10px; text-align: center; box-shadow: 0 2px 10px rgba(236, 9, 9, 0.05);">
-            <h3>What We Offer:</h3>
-            <ul style="text-align: left;">
-                <li><strong>Custom Frame Selection</strong> - Choose the perfect frame for your body and riding style</li>
-                <li><strong>Component Choices</strong> - Groupsets, wheels, and finishing kit</li>
-                <li><strong>Professional Assembly</strong> - Expert build and setup</li>
-                <li><strong>Custom Paint & Finishing</strong> - Make it uniqueky yours</li>
-                <li><strong>Bike Fitting Service</strong> - Perfect positioning for comfort and performance</li>
-            </ul>
-        </div>   
-        <p style="text-align: center; margin-top: 20px;"><strong>Price Range:</strong>From R5,000 (parts + labour)</p>
-        <div style="text-align: center; margin-top: 30px;"><a href="Enquiry.html" style="display: inline-block; background-color: #E64A19; color: white; padding: 12px 30px; border-radius: 5px; text-decoration: none; font-weight: bold; align-items: center;">Enquire About a Custom Build</a></div>
-    </div>
-</section>
-
-    <!--Why Choose Us-->
-    <div class="why-choose">
-        <h2>Why Choose Amicon Cycles?</h2>
-
-        <div class="feature">
-            <h3> 15+ Years Experience</h3>
-            <p>Our team brings decades of cycling expertise to every service.</p>
+        <div class="container">
+            <h2>Custom Builds</h2>
+            <div class="card" style="max-width: 800px; margin: 0 auto; text-align: left;">
+                <h3>What We Offer:</h3>
+                <ul style="list-style-type: disc; padding-left: 20px;">
+                    <li><strong>Custom Frame Selection</strong></li>
+                    <li><strong>Component Choices</strong></li>
+                    <li><strong>Professional Assembly</strong></li>
+                    <li><strong>Custom Paint & Finishing</strong></li>
+                    <li><strong>Bike Fitting Service</strong></li>
+                </ul>
+                <p style="margin-top: 15px;"><strong>Price Range:</strong> From R5,000</p>
+                <div style="text-align: center; margin-top: 15px;">
+                    <a href="enquiry.html" class="btn">Enquire About a Custom Build</a>
+                </div>
+            </div>
         </div>
+    </main>
 
-        <div class="feature">
-            <h3>Quality Guarantee</h3>
-            <p>We stand behind our work with a 30-day service guarantee.</p>
-        </div>
-
-        <div class="feature">
-            <h3>Affordable Pricing</h3>
-            <p>Competitve rates without compromising on quality</p>
-        </div>
-    </div>
-
-<!--This is the footer-->
     <footer>
-        <div class="footer-info">
-            <h3>Amicon Cycles</h3>
-            <p>Shop 19, Mall@Secunda, Secunda, Mpumalanga</p>
-            <p>Mon-Fri: 09:00 - 18:00</p>   
-            <P>Saturday: 09:00 - 13:00</P>
-            <p>Sunday: Closed</p>
-            <p>+27 68 243 2562</p>
-            <a href="contact.html">Get Directions</a>
-        </div>
+        <h3>Amicon Cycles</h3>
+        <p>Shop 19, Mall@Secunda, Secunda, Mpumalanga</p>
+        <p>Mon-Fri: 09:00 - 18:00 | Sat: 09:00 - 13:00 | Sun: Closed</p>
+        <p>+27 68 243 2562</p>
+        <a href="contact.html">Get Directions</a>
         <div class="footer-bottom">
             <p>&copy; 2026 Amicon Cycles, All Rights Reserved.</p>
         </div>
     </footer>
+
+    <script src="Javascript/script.js"></script>
 </body>
 </html>
