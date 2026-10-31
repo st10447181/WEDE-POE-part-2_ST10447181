@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amicon Cycles|Enquiry</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--This is the top promotional bar-->
+    <marquee>Free Basic Service On All New Bikes | 0% Finance Available</marquee>
+
+    <!--This is the header with contact info-->
+    <header>
+        <div class="contact-info">
+            <span> +27 68 243 2562</span>
+            <span> info@amiconcycle.co.za</span>
+            <span> Shop 19, Mall@Secunda, Secunda</span>
+        </div>
+
+     <!--This is the navigation with a logo-->
+        </a><nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="Images/logo.png" alt="Amicon Cycles Logo" width="180">
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <a href="index.html"><i class="fas fa-home"></i> Home</a>
+                <a href="about.html"><i class="fas fa-info-circle"></i> About</a>
+                <a href="products.html"><i class="fas fa-bicycle"></i> Products</a>
+                <a href="services.html"><i class="fas fa-tools"></i> Services</a>
+                <a href="enquiry.html"><i class="fas fa-envelope"></i> Enquiry</a>
+                <a href="contact.html"><i class="fas fa-phone"></i> Contact</a>
+            </ul>       
+        </div>
+    </nav>
+    
+    </header> 
+
+    <!--This is the Hero Banner-->
+    <div class="hero" style="background-color: rgba(106, 106, 129, 0.596); min-height: 250px; display: flex; align-items: center; justify-content: center; text-align: center; padding: 40x 20px;">
+        <div class="hero-content">
+        <h1 style="color: white; font-size: 36px; margin-bottom: 10px;">Send Us an Enquiry</h1>
+        <p style="color: white; font-size: 18px; max-width: 700px; margin: 0 auto 30px;">Have questions about our products or services? We're here to help!</p>
+        </div>
+    </div>
+
+    <!--This is the Enquiry Form section-->
+    <div class="enquiry-section" style="padding: 40px 20px; max-width: 1200px; margin: 0 auto;">
+        <h2 style="text-align: center; color: #1A237E; font-size: 28px;">Get in Touch</h2>
+        <p style="text-align: center; color: black; max-width: 1200px; margin: o auto 30px;">Fill in the form below and we'll get back to you within 24 hours</p>
+
+        <form action="#" method="POST" style="background-color: #f8f8f8; padding: 40px; border-radius: 10px;">
+
+            <!--Full Name-->
+            <div class="form-group">
+                <div style="margin-bottom: 20px;">
+                    <label for="fullname" style="display: block; font-weight: 600; margin-bottom: 5px; color: #333;">Full Name <span class="required" style="color: red;">*</span></label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required="width: 100; padding: 12px; border: 1px solid #ddd; border-radius: 5px; font size: 16px; box-sizing: border-box;">
+                </div>
+            </div>
+
+            <!--Email Address-->
+            <div class="form-group">
+                <div style="margin-bottom: 20px;">
+                    <label for="email" style="display: block; font-weight: 600; margin-bottom: 5px; color: #333;">Email Address <span class="required" style="color: red;">*</span></label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required="width: 100; padding: 12px; border: 1px solid #ddd; border-radius: 5px; font size: 16px; box-sizing: border-box;">
+                </div>
+            </div>
+
+            <!--Phone Number-->
+            <div class="form-group">
+                <div style="margin-bottom: 20px;">
+                    <label for="phone" style="display: block; font-weight: 600; margin-bottom: 5px; color: #333;">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required="width: 100; padding: 12px; border: 1px solid #ddd; border-radius: 5px; font size: 16px; box-sizing: border-box;">
+                </div>
+            </div>
+
+            <!--Enquiry Type-->
+            <div class="form-group">
+                <div style="margin-bottom: 20px;">
+                    <label for="enquiryType" style="display: block; font-weight: 600; margin-bottom: 5px; color: #333;">Enquiry Type <span class="required" style="color: red;">*</span></label>
+                    <select id="enquiryType" name="enquiryType" required>
+                        <option value="">Select an enquiry type</option>
+                        <option value="product">Product Enquiry</option>
+                        <option value="service">Service Booking</option>
+                        <option value="custom-build">Custom Build Enquiry</option>
+                        <option value="">Select an enquiry type</option>
+                        <option value="general">General Enquiry</option>
+                    </select>
+                </div>
+            </div>
+
+            <!--Subject-->
+            <div class="form-group">
+                <div style="margin-bottom: 20px;">
+                    <label for="subject" style="display: block; font-weight: 600; margin-bottom: 5px; color: #333;">Subject <span class="required" style="color: red;">*</span></label>
+                    <input type="text" id="subject" name="subject" placeholder="Brief subject of your enquiry" required>
+                </div>
+            </div>
+
+            <!--Message-->
+            <div class="form-group">
+                <div style="margin-bottom: 20px;">
+                    <label for="message" style="display: block; font-weight: 600; margin-bottom: 5px; color: #333;">Message <span class="required"  style="color: red;">*</span></label>
+                    <textarea id="message" name="message" rows="6" placeholder="Describe your enquiry in detail" required></textarea>
+                </div>
+            </div>
+
+            <!--Preferred Contact Method-->
+            <div class="form-group">
+                <div style="margin-bottom: 25px;">
+                    <label style="display: block; font-weight: 600; margin-bottom: 10px; color: #333;">Preferred Contact Method</label>
+                    <div class="contact-methods">
+                        <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+                            <label style="display: flex; align-items: center; gap: 5px; cursor: pointer;"><input type="radio" name="contactMethod" value="email" checked>Email</label>
+                            <label style="display: flex; align-items: center; gap: 5px; cursor: pointer;"><input type="radio" name="contactMethod" value="phone" checked>Phone</label>
+                            <label style="display: flex; align-items: center; gap: 5px; cursor: pointer;"><input type="radio" name="contactMethod" value="WhatsApp" checked>WhatsApp</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--This is the submit button-->
+            <button type="submit" style="background-color: #E64A19; color: white; padding: 14px 50px; border: none; border-radius: 5px; font-size: 18px; font-weight: bold; cursor: pointer; transition: background-color 0.3s ease">Send Enquiry</button>
+            <p class="form-note" style="margin-top: 15px; font-size: 14px; color: #999;"><span class="required" style="color: red;">*</span>Required Fields</p>
+        </form>
+    </div>
+
+
+    <!--This is the quick info Sidebar-->
+    <div class="contact-sidebar">
+        <h2>Prefer to Reach Us Directly</h2>
+
+        <div class="info-item">
+            <h3>Call Us</h3>
+            <p>+27 68 243 2562</p>
+        </div>
+
+        <div class="info-item">
+            <h3>Email Us</h3>
+            <p>info@amiconcycles.co.za</p>
+        </div>
+
+        <div class="info-item">
+            <h3>Visit Us</h3>
+            <p>Shop 19, Mall@Secunda, Secunda, Mpumalanga</p>
+        </div>
+
+        <div class="info-item">
+            <h3>Store Hours</h3>
+            <p>Monday - Saturday: 09:00 - 18:00</p>
+            <p>Sunday: Closed</p>
+        </div>
+
+        <div class="promise-box">
+            <p><strong>Quick Response Quarantee:</strong>We respond to all enquiries within 24 hours.</p>
+        </div>
+    </div>
+
+
+<!--This is the footer-->
+    <footer>
+        <div class="footer-info">
+            <h3>Amicon Cycles</h3>
+            <p>Shop 19, Mall@Secunda, Secunda, Mpumalanga</p>
+            <p>Mon-Fri: 09:00 - 18:00</p>   
+            <P>Saturday: 09:00 - 13:00</P>
+            <p>Sunday: Closed</p>
+            <p>+27 68 243 2562</p>
+            <a href="contact.html">Get Directions</a>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Amicon Cycles, All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
