@@ -692,7 +692,7 @@ footer-bottom {
     margin: 0 auto;
 }
 
-/*Responsive desing for mobile devices*/
+/*Responsive design for mobile devices*/
 
 /*Tablets (max width of 922px)*/
 @media (max-width: 992px) {
@@ -755,4 +755,28 @@ h2 {font-size: 22px; }
 .stats-menu {
     grid-template-columns: 1fr 1fr;
 }
+}
+
+/*MOBILE HAMBURGER MENU*/
+.menu-toggle {
+    display: none; 
+    font-size: 24px;
+    color: var(--white);
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle { 
+        display: block; 
+    
+    .nav-menu {
+        display: none; 
+        flex-direction: column;
+        width: 100%;
+        margin-top: var(--spacing-md);
+    }
+    
+    .nav-menu.active { 
+        display: flex; 
+    }
 }
