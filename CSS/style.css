@@ -204,3 +204,29 @@ footer a { color: var(--orange); }
     padding: 10px 0;
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
+
+/* Making the enquiry form responsive */
+@media (max-width: 768px) {
+    /* 1. Reduce padding on the container and card on mobile */
+    .container {
+        padding: 20px 10px;
+    }
+    .card {
+        padding: 15px;
+    }
+
+    /* 2. Make form inputs easier to tap */
+    form input, 
+    form select, 
+    form textarea {
+        font-size: 16px; /* Prevents mobile browsers from zooming in when clicked */
+        padding: 12px;
+    }
+
+    /* 3. Make the submit button full-width on mobile */
+    form button[type="submit"] {
+        width: 100%;
+        padding: 15px;
+        font-size: 18px;
+    }
+}
