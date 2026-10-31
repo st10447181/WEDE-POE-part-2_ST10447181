@@ -780,3 +780,10 @@ h2 {font-size: 22px; }
         display: flex; 
     }
 }
+
+.menu-toggle {
+    background-color: red !important; /* Temporary colour to find it */
+    color: white !important;
+    padding: 10px;
+    border-radius: 5px;
+}
