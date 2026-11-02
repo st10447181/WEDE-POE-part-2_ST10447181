@@ -6,6 +6,22 @@
     <title>Amicon Cycles | Enquiry</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        
+        .google-form-container {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .google-form-container iframe {
+            width: 100%;
+            height: 1084px;
+            border: none;
+        }
+    </style>
 </head>
 <body>
 
@@ -43,44 +59,17 @@
         </div>
 
         <div class="container">
-            <div class="card" style="max-width: 800px; margin: 0 auto; text-align: left;">
-                <h2 style="text-align: center; margin-bottom: 20px;">Get in Touch</h2>
-                <form action="#" method="POST">
-                    <div style="margin-bottom: 15px;">
-                        <label for="fullName" style="font-weight: bold;">Full Name *</label>
-                        <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; margin-top: 5px;">
-                    </div>
-                    <div style="margin-bottom: 15px;">
-                        <label for="email" style="font-weight: bold;">Email Address *</label>
-                        <input type="email" id="email" name="email" placeholder="Enter your email address" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; margin-top: 5px;">
-                    </div>
-                    <div style="margin-bottom: 15px;">
-                        <label for="phone" style="font-weight: bold;">Phone Number</label>
-                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; margin-top: 5px;">
-                    </div>
-                    <div style="margin-bottom: 15px;">
-                        <label for="enquiryType" style="font-weight: bold;">Enquiry Type *</label>
-                        <select id="enquiryType" name="enquiryType" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; margin-top: 5px;">
-                            <option value="">Select an enquiry type</option>
-                            <option value="product">Product Enquiry</option>
-                            <option value="service">Service Booking</option>
-                            <option value="custom-build">Custom Build Enquiry</option>
-                            <option value="general">General Enquiry</option>
-                        </select>
-                    </div>
-                    <div style="margin-bottom: 15px;">
-                        <label for="message" style="font-weight: bold;">Message *</label>
-                        <textarea id="message" name="message" rows="5" placeholder="Describe your enquiry in detail" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; margin-top: 5px;"></textarea>
-                    </div>
-                    <div style="text-align: center; margin-top: 20px;">
-                        <button type="submit" class="btn">Send Enquiry</button>
-                    </div>
-                </form>
+            <h2>Get in Touch</h2>
+            <p style="text-align: center; margin-bottom: 30px;">Fill in the form below and we'll get back to you within 24 hours.</p>
+            
+            <div class="google-form-container">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSehddERYdHIrAkaX60VMicNe0ZKJnA174sqUQw4LEfCdl8Jiw/viewform?embedded=true" width="640" height="1084" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </div>
+
         </div>
     </main>
 
-        <footer>
+    <footer>
         <h3>Amicon Cycles</h3>
         <p>Shop 19, Mall@Secunda, Secunda, Mpumalanga</p>
         <p>Mon-Fri: 09:00 - 18:00 | Sat: 09:00 - 13:00 | Sun: Closed</p>
@@ -88,8 +77,8 @@
         <a href="contact.html">Get Directions</a>
 
         <div class="social-icons">
-            <a href="https://facebook.com/Amicon Cycles" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://instagram.com/Amicon Cycles" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://facebook.com/AmiconCycles" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com/AmiconCycles" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
             <a href="https://wa.me/27682432562" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
         </div>
 
@@ -97,7 +86,23 @@
             <p>&copy; 2026 Amicon Cycles, All Rights Reserved.</p>
         </div>
     </footer>
+<footer>
+        <h3>Amicon Cycles</h3>
+        <p>Shop 19, Mall@Secunda, Secunda, Mpumalanga</p>
+        <p>Mon-Fri: 09:00 - 18:00 | Sat: 09:00 - 13:00 | Sun: Closed</p>
+        <p>+27 68 243 2562</p>
+        <a href="contact.html">Get Directions</a>
 
+        <div class="social-icons">
+            <a href="https://facebook.com/AmiconCycles" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com/AmiconCycles" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/27682432562" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Amicon Cycles, All Rights Reserved.</p>
+        </div>
+    </footer>
     <script src="Javascript/script.js"></script>
 </body>
 </html>
