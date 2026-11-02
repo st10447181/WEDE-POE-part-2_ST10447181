@@ -219,8 +219,9 @@ Sitemap (sitemap.html)
 - Added a navbar scroll effect that changes the header background on scroll.
 
 - **Form Handling:** Replaced the static HTML form with an embedded Google Form to ensure reliable email notifications and data capture.
+
 - **CSS Bug Fixes:**
-  - Fixed critical typos in `style.css` (e.g., `footer-bottom`, `var(--white)`).
+  - Fixed critical typos in `style.css`.
   - Resolved case-sensitivity issues with the `css` and `Images` folder names for GitHub Pages compatibility.
   - Fixed the layout of the hero banners on sub-pages (`hero-sm` height adjustment).
 
